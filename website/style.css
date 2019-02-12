@@ -165,3 +165,19 @@ li.left a:visited {
     color: white;
     text-align: center;
   }
+
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .column {
+    max-width: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }

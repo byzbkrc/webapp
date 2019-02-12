@@ -24,21 +24,17 @@
         <h2>
             Search here!
         </h2>
-        <div class="input-group half-size center-horizontal">
-            <input type="text" class="form-control" placeholder="Search">
-            <a href="./search.html" class="btn btn-red center-horizontal">Search</a>
-        </div>
+        <div>
+            <form class="input-group half-size center-horizontal" method="get" action="./search.php">
+                <input type="text" class="form-control" name="searchTerm" placeholder="Search">
+                <input class="btn btn-red center-horizontal" type="submit" value="Search" >
+            </form>
+		</div>
         <div>
             <h4>Looking for all books?
-                <a href="./books.html">click here</a>
+                <a href="./books.php">click here</a>
             </h4>
         </div>
-    </div>
-    <div class="footer">
-        <p>
-            See my source code on GitHub: 
-            <a href="https://github.com/byzbkrc/webapp">https://github.com/byzbkrc/webapp</a>
-        </p>
     </div>
 </body>
 
